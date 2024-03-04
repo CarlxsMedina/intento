@@ -5,3 +5,6 @@ create table Usuarios (
 	contraseña varchar(50),
 	cargo varchar(50)
 )
+
+--se insertan los primeros valores como prueba
+insert into Usuarios values ('josue', 'josue123', 'administrador')
