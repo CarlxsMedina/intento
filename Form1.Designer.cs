@@ -32,6 +32,8 @@
             button2 = new Button();
             button3 = new Button();
             checkBox1 = new CheckBox();
+            label1 = new Label();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // button1
@@ -71,11 +73,29 @@
             checkBox1.Text = "checkBox1";
             checkBox1.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(76, 295);
+            label1.Name = "label1";
+            label1.Size = new Size(56, 15);
+            label1.TabIndex = 4;
+            label1.Text = "hola papi";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(138, 295);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(100, 23);
+            textBox1.TabIndex = 5;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox1);
+            Controls.Add(label1);
             Controls.Add(checkBox1);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -92,5 +112,7 @@
         private Button button2;
         private Button button3;
         private CheckBox checkBox1;
+        private Label label1;
+        private TextBox textBox1;
     }
 }
