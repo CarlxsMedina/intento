@@ -5,3 +5,5 @@ create table Usuarios (
 	contraseña varchar(50),
 	cargo varchar(50)
 )
+
+insert into Usuarios values ('carlos', 'carlos123', 'administrador')
