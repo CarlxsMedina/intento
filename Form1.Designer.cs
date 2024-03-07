@@ -69,7 +69,7 @@
             // 
             // btnIngresar
             // 
-            btnIngresar.Location = new Point(368, 192);
+            btnIngresar.Location = new Point(413, 186);
             btnIngresar.Name = "btnIngresar";
             btnIngresar.Size = new Size(75, 23);
             btnIngresar.TabIndex = 4;
